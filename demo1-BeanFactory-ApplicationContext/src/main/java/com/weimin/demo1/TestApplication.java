@@ -1,8 +1,12 @@
 package com.weimin.demo1;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.AutoConfigurationExcludeFilter;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.TypeExcludeFilter;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.FilterType;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.io.Resource;
 
@@ -10,6 +14,7 @@ import java.io.IOException;
 import java.util.Locale;
 
 @SpringBootApplication
+@ComponentScan(excludeFilters = { @ComponentScan.Filter(type= FilterType.REGEX, pattern = "com.weimin.demo1.TestApplicationImpl.WebConfig") })
 public class TestApplication {
 
     public static void main(String[] args) throws IOException {
