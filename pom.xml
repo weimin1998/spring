@@ -11,5 +11,6 @@
     <modules>
         <module>demo1-BeanFactory-ApplicationContext</module>
         <module>demo2-Bean-LifeCycle</module>
+        <module>demo3-BeanPostProcessor</module>
     </modules>
 </project>
