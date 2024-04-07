@@ -1,7 +1,0 @@
-Resource resource = applicationContext.getResource("classpath:application.properties");
-System.out.println(resource);
-
-Resource[] resources = applicationContext.getResources("classpath*:META-INF/spring.factories");
-for (Resource resource1 : resources) {
-	System.out.println(resource1);
-}
