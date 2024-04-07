@@ -13,5 +13,7 @@
         <module>demo2-Bean-LifeCycle</module>
         <module>demo3-BeanPostProcessor</module>
         <module>demo4-BeanFactoryPostProcessor</module>
+        <module>demo5-Aware-InitializionBean</module>
+        <module>demo6-Init-destroy</module>
     </modules>
 </project>
