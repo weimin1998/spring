@@ -15,5 +15,6 @@
         <module>demo4-BeanFactoryPostProcessor</module>
         <module>demo5-Aware-InitializionBean</module>
         <module>demo6-Init-destroy</module>
+        <module>demo7-Bean-Scope</module>
     </modules>
 </project>
