@@ -1,5 +1,8 @@
 package com.weimin.demo7;
 
+import com.weimin.demo7.beans.BeanForApplication;
+import com.weimin.demo7.beans.BeanForRequest;
+import com.weimin.demo7.beans.BeanForSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.web.bind.annotation.GetMapping;

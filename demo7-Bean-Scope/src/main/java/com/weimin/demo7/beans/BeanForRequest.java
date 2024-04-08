@@ -1,4 +1,4 @@
-package com.weimin.demo7;
+package com.weimin.demo7.beans;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -6,11 +6,11 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PreDestroy;
 
 @Component
-@Scope("application")
-public class BeanForApplication {
+@Scope("request")
+public class BeanForRequest {
 
     @PreDestroy
     public void destroy(){
-        System.out.println("destroy in BeanForApplication");
+        System.out.println("destroy in BeanForRequest");
     }
 }
