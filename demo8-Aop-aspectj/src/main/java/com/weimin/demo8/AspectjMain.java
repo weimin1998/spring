@@ -1,7 +1,8 @@
-package com.weimin.demo8.method1.mains;
+package com.weimin.demo8;
 
-import com.weimin.demo8.method1.config.ConfigAop;
-import com.weimin.demo8.method1.service.MyService;
+
+import com.weimin.demo8.config.ConfigAop;
+import com.weimin.demo8.service.MyService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class AspectjMain {
