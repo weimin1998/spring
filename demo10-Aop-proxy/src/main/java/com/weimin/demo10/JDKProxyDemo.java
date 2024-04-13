@@ -51,10 +51,10 @@ public class JDKProxyDemo {
 
         System.out.println(proxyInstance.getClass());
 
-        try {
-            System.in.read();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+//        try {
+//            System.in.read();
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
     }
 }
