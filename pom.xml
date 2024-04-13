@@ -19,5 +19,6 @@
         <module>demo8-Aop-aspectj</module>
         <module>demo9-Aop-agent</module>
         <module>demo10-Aop-proxy</module>
+        <module>demo11-Aop-proxy-diy</module>
     </modules>
 </project>
