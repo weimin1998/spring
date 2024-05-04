@@ -8,6 +8,12 @@
     <name>Archetype - spring</name>
     <url>http://maven.apache.org</url>
 
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <modules>
         <module>demo1-BeanFactory-ApplicationContext</module>
         <module>demo2-Bean-LifeCycle</module>
@@ -21,5 +27,6 @@
         <module>demo10-Aop-proxy</module>
         <module>demo11-Aop-proxy-diy</module>
         <module>demo12-Aop-cglib-MethodProxy</module>
+        <module>demo13-Aop-Spring-select-proxy</module>
     </modules>
 </project>
