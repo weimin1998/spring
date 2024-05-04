@@ -28,5 +28,6 @@
         <module>demo11-Aop-proxy-diy</module>
         <module>demo12-Aop-cglib-MethodProxy</module>
         <module>demo13-Aop-Spring-select-proxy</module>
+        <module>demo14-Aop-PointcutMatch</module>
     </modules>
 </project>
