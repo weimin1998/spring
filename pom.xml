@@ -29,5 +29,6 @@
         <module>demo12-Aop-cglib-MethodProxy</module>
         <module>demo13-Aop-Spring-select-proxy</module>
         <module>demo14-Aop-PointcutMatch</module>
+        <module>demo15-Aop-Aspect-to-Advisor</module>
     </modules>
 </project>
